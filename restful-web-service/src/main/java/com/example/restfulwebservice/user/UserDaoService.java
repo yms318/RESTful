@@ -7,6 +7,7 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
+//@Component도 가능하나 더 정확하게 주입하기 위함
 @Service
 public class UserDaoService {
     private static List<User> users = new ArrayList<>();

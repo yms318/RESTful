@@ -10,12 +10,13 @@ import java.util.List;
 
 @RestController
 public class UserController {
-    private UserDaoService service;
+    private UserDaoService service; // 인스턴스 선언
 
     //생성자를 통한 의존성 주입 (@Autowired를 사용할 수도 이뜸)
     public UserController(UserDaoService service) {
         this.service = service;
     }
+
     @GetMapping("/users")
     public List<User> retrieveAllUsers() {
         return service.findAll();
@@ -32,6 +33,7 @@ public class UserController {
     }
 
     @PostMapping("/users")
+    // form 데이터 타입 아닌 json, xml같은 object 타입을 선언할 시 @RequestBody 사용
     public ResponseEntity<User> createUser(@Valid @RequestBody User user) {
         User savedUser = service.save(user);
 
@@ -41,7 +43,7 @@ public class UserController {
                 .buildAndExpand(savedUser.getId())
                 .toUri(); //가변변수에 savedUser의 id값을 넣어 uri 형태로 변경
 
-        return ResponseEntity.created(location).build();
+        return ResponseEntity.created(location).build(); //저장된 User의 주소값을 반환
     }
 
     @DeleteMapping("/users/{id}")

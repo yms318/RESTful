@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb7f64e9-1641-4e56-9281-4605ea7ef097" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/restful-web-service/src/main/java/com/example/restfulwebservice/user/AdminUserController.java" afterDir="false" />
+    <list default="true" id="cb7f64e9-1641-4e56-9281-4605ea7ef097" name="Default Changelist" comment="220724 Filtering 실습 커밋">
+      <change afterPath="$PROJECT_DIR$/restful-web-service/src/main/java/com/example/restfulwebservice/user/UserV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restful-web-service/src/main/java/com/example/restfulwebservice/helloworld/HelloWorldBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/restful-web-service/src/main/java/com/example/restfulwebservice/helloworld/HelloWorldBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restful-web-service/src/main/java/com/example/restfulwebservice/user/AdminUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/restful-web-service/src/main/java/com/example/restfulwebservice/user/AdminUserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restful-web-service/src/main/java/com/example/restfulwebservice/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/restful-web-service/src/main/java/com/example/restfulwebservice/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restful-web-service/src/main/java/com/example/restfulwebservice/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/restful-web-service/src/main/java/com/example/restfulwebservice/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restful-web-service/src/main/java/com/example/restfulwebservice/user/UserDaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/restful-web-service/src/main/java/com/example/restfulwebservice/user/UserDaoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +106,14 @@
       <option name="presentableId" value="Default" />
       <updated>1625289589276</updated>
     </task>
+    <task id="LOCAL-00001" summary="220724 Filtering 실습 커밋">
+      <created>1658658467802</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658658467802</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +127,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="220724 Filtering 실습 커밋" />
+    <option name="LAST_COMMIT_MESSAGE" value="220724 Filtering 실습 커밋" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
